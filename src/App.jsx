@@ -1,4 +1,5 @@
 import "./App.css";
+import Contador from "./components/Contador";
 import Lista from "./components/Lista";
 import Titulos from "./components/Titulos";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,6 +17,7 @@ function App() {
      <h3>Servicios</h3>
      <hr/>
      <Lista></Lista>
+     <Contador></Contador>
      </section>
      {/* <Titulos/> */}
     </>

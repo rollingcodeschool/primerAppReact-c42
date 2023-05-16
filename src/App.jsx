@@ -12,7 +12,7 @@ function App() {
     // <> es un Fragment
     <>
       {/* esto es un comentario del html */}
-     <Titulos></Titulos>
+     <Titulos nuevoTitulo='Este titulo fue creado con props' estado={true} ></Titulos>
      <section className="container">
      <h3>Servicios</h3>
      <hr/>
